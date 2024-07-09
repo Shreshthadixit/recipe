@@ -48,6 +48,8 @@ const SingleRecipe = () => {
                   <div className='row'>
                   <div className='col-md-6 d-flex justify-content-center align-items-center flex-column  gap-4 mt-5'>
                     <h1>Health Labels</h1>
+
+                    <h4>health</h4>
                     <ul>
                     {location.state.recipe.healthLabels.map((ele)=>{
                      return  <li>{ele}</li>
